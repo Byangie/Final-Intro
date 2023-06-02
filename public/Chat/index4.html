@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link href="style4.css" rel="stylesheet"/>
+</head>
+<body>
+
+
+    <div>
+        <div class="flex-container fila">
+        <h3>Bienvenido al chat</h3>
+        <img class="logo" src="Logo.jpg">
+        </div>
+        <div class="flex-container fila">
+            <label>Estas conectado como:</label>
+        </div>
+        <div class="flex-container fila">
+            <strong id="nombreUsuario">No autentificado</strong>
+        </div>   
+        <div class="flex-container fila">
+            <button class="boton-iniciar-sesion" id="btnIniciar"><b>Iniciar sesion</b></button>
+            <button class="boton-cerrar-sesion" id="btnCerrar"><b>Salir</b></button>
+        </div>
+        <div class="flex-container fila">
+            <div class="mensajes" id="divChat">
+                Aqui deben aparecer los mensajes
+            </div>
+        </div>
+        <div class="flex-container fila">
+            <textarea 
+            class="texto-de-mensaje"
+            id="textoMensaje"
+            placeholder="Escribe tu mensaje aquí y presiona enter para enviar"
+            ></textarea>
+        </div>
+        <a href="../index.html">
+        <button class="btn-regresar"><b>Ir al portafolio</b></button>
+        </a>
+        
+        <a href="../Estilos/index5.html">
+            <button class="btn-siguiente"><b>Página siguiente</b></button>
+        </a>
+    </div>
+    
+    <script src="script4.js" type= "module" ></script>
+</body>
+</html> 

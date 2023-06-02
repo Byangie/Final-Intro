@@ -1,0 +1,67 @@
+*{
+    margin :  0 ;
+    padding:  0 ;
+    box-sizing: border-box
+}
+
+body{
+    background-image: url(http://wallpaperslife.files.wordpress.com/2008/08/abstracto.jpg);
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 150px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Fraunces', serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(177, 204, 234);
+    color: rgb(251, 249, 254);
+    transition: ease-in .4s;
+}
+
+
+.title{
+    color: aliceblue;
+    margin: 0 auto;
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
+
+.encabezado{
+    padding: 15px;
+    background-color: rgb(19, 4, 49);
+    color: aliceblue;    
+}
+
+span{
+    color: rgb(177, 204, 234);
+  }
+
+  img{
+    width: 300px;
+    border: 7px solid;
+    height: 300px;
+  }
+
+.parrafo{
+    color: aliceblue;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
